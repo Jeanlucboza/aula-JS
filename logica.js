@@ -1,4 +1,4 @@
-console.log("escreve no console!");
+/*console.log("escreve no console!");
 //var idade = prompt("Qual a sua idade?");
 var idade = 20;
 if(idade >= 18) 
@@ -43,9 +43,9 @@ else if (n2>n3)
 //metodo de fazer
 
 
-var n1 = prompt("digite o primeiro numero");
-var n2 = prompt("digite o segundo numero");
-var n3 = prompt ("digite o terceiro numero");
+//var n1 = prompt("digite o primeiro numero");
+//var n2 = prompt("digite o segundo numero");
+//var n3 = prompt ("digite o terceiro numero");
 
 if(n1 > n2)
 {
@@ -68,4 +68,12 @@ else
     {
         console.log("o numero" + n3 + "é maior");
     }
+}*/
+//Desafio IMC
+var peso = prompt("digite o peso");
+var altura = prompt ("digite a altura");
+
+if(peso/altura)
+{
+    console.log("O imc é " + peso/altura);
 }
